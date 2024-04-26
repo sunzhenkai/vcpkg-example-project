@@ -1,6 +1,15 @@
 {
   "dependencies": [
-    "port-example",
+    {
+      "name": "port-example",
+      "version>=": "0.0.3"
+    },
     "spdlog"
+  ],
+  "overrides": [
+    {
+      "name": "port-example",
+      "version": "0.0.3"
+    }
   ]
 }
